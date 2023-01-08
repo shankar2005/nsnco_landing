@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sessions Invite</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link href="assets/css/form.css" rel="stylesheet" />
+  </head>
+  <body>
+    <section class="contact">
+      <div class="content">
+        <h2>Sessions</h2>
+        <p>
+          We are currently operating from New Delhi, India, delivering across
+          regions, working remotely with our litigable partners and clients.
+        </p>
+      </div>
+      <div class="container">
+        <div class="contactInfo">
+          <div class="box">
+            <div class="icon">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+            </div>
+            <div class="text">
+              <h3>Address</h3>
+              <p>
+                12 Ajit Singh House, 406,<br />
+                4th floor, Commercial Complex <br />
+                Yusuf Sarai, <br />
+                Next to Green Park Metro station
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+            </div>
+            <div class="text">
+              <h3>Phone</h3>
+              <p>+91 7838545499</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fa fa-envelope-o" aria-hidden="true"></i>
+            </div>
+            <div class="text">
+              <h3>Email</h3>
+              <p>www.nsnco.in@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="contactForm">
+          <form action="https://formspree.io/f/xyylgbwq" method="POST">
+            <input
+              type="hidden"
+              name="_cc"
+              value="sachinpurohit.text@gmail.com"
+            />
+            <input type="hidden" name="_next" value="http://nsnco.in/" />
+            <h2>Send Message</h2>
+            <div class="inputBox">
+              <input type="text" name="name" required="required" />
+              <span>Full Name</span>
+            </div>
+            <div class="inputBox">
+              <input type="email" name="_replyto" required="required" />
+              <span>Email</span>
+            </div>
+            <div class="inputBox" id="mobilenumber">
+              <input type="text" name="number" required="required" />
+              <span>Mobile Number</span>
+            </div>
+            <div class="inputBox">
+              <textarea
+                type="text"
+                name="Message"
+                required="required"
+              ></textarea>
+              <span>Type your Message...</span>
+            </div>
+            <div id="submitbtn" class="inputBox1">
+              <input type="submit" name="" value="Invite" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
